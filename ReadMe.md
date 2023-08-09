@@ -1,9 +1,5 @@
 # Express JWT Auth Framework
 ### Original code & tutorial by Shaun P. / The NetNinga
-<br>
-The *og-tutorial* branch contains the all functioning code (asside from .env) immediately after completing Shaun's tutorial series.
-
-<br>
 
 Shaun's video tutorial series --> https://www.youtube.com/playlist?list=PL4cUxeGkcC9iqqESP8335DA5cRFp8loyp
 
