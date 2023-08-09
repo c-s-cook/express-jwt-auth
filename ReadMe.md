@@ -16,6 +16,11 @@ This branch of the repo contains all of the completed, working files for user si
 - checkUser() looks for user info and injects the email into *locals* for use by in the views - specifically ./views/header.js
 - TO DO: try and incorporate this injection in the initial login / auth pass to remove another call the DB 
 
+/models/User.js
+- this file defines the *User* schema and includes custom Error messages
+- uses pre.save hook to hash passwords using **bcrypt** with salt for successful sign ups
+- uses static.login() to check/valicate login requests
+
 
 .env
  - MONGO_URI= (the URI for your MongoDB)
@@ -34,7 +39,7 @@ https://levelup.gitconnected.com/how-to-implement-csrf-tokens-in-express-f867c9e
 ## Credits:
 ### Original code & tutorial by Shaun P. / The NetNinga
 <br>
-The *og-tutorial* branch contains the all functioning code (asside from .env) immediately after completing Shaun's tutorial series.
+The *og-tutorial* branch contains the all functioning code (aside from .env) immediately after completing Shaun's tutorial series.
 
 <br>
 
