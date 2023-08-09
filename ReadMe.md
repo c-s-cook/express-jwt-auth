@@ -2,6 +2,24 @@
 
 This branch of the repo contains all of the completed, working files for user sign up / login through JWT in Node.js / Express.js user authentication.
 
+---
+## INSTALL:
+First, you'll need a MongoDB database and URI ready at hand. This is where the user information will be stored.
+
+Then git clone or download/unzip the repo and cd to the project directory.
+
+> npm install
+
+Create a .env file in the root project directory and add...
+
+MONGO_URL=[ the URI for your MongoDB ]
+
+JWT_SECRET=[a long, random string with which to encrypt your JWT's]
+
+> npm run start
+
+---
+
 
 ### File Notes:
 
